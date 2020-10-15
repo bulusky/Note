@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaSE" />
+        <module name="Mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JavaSE" target="1.8" />
+      <module name="Mybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
