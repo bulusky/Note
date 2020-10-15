@@ -29,9 +29,8 @@
     </environments>
     <!--配置mapper扫描-->
     <mappers>
-        <!--1、xml形式-->
+        <!--1、-->
         <mapper resource="com/xiao/mapper/FamilyDao.xml"/>
-        <!--2、注解形式-->
         <mapper class="com.xiao.dao.UserDao"/>
     </mappers>
 </configuration>

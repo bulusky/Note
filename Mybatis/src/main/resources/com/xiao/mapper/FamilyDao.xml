@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--于主配置文件的区别
+    对于文档类型的约束不同  有Config变成了mapper-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--1、namespace指定去哪里映射-->
+<mapper namespace="com.xiao.dao.FamilyDao">
+    <!--2、配置查询语句-->
+    <select id="getAll" resultType="com.xiao.bean.Family">
+        select * from family
+    </select>
+
+    <select id="getById" parameterType="int" resultType="com.xiao.bean.Family">
+        select * from family where id = #{id}
+    </select>
+</mapper>
