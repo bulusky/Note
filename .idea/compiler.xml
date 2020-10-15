@@ -7,12 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaSE" />
+        <module name="SpringMVC" />
+        <module name="Spring" />
+        <module name="SSM" />
         <module name="Mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JavaSE" target="1.8" />
       <module name="Mybatis" target="1.8" />
+      <module name="Spring" target="1.8" />
+      <module name="SpringMVC" target="1.8" />
+      <module name="SSM" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
