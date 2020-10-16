@@ -1,10 +1,8 @@
 package com.xiao.service;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
 import com.xiao.bean.User;
 import com.xiao.dao.UserDao;
 import com.xiao.util.StartMybatis;
-import org.junit.Before;
 import org.junit.Test;
 
 import java.io.IOException;

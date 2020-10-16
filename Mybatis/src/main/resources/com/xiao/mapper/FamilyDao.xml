@@ -10,7 +10,7 @@
     <select id="getAll" resultType="com.xiao.bean.Family">
         select * from family
     </select>
-
+    
     <select id="getById" parameterType="int" resultType="com.xiao.bean.Family">
         select * from family where id = #{id}
     </select>
