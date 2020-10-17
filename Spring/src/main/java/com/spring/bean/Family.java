@@ -1,4 +1,4 @@
-package com.xiao.bean;
+package com.spring.bean;
 
 /**
  * 家庭成员类，测试

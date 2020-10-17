@@ -7,15 +7,15 @@
     <groupId>org.example</groupId>
     <artifactId>Spring</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <!--pom文件-->
     <properties>
+        <!--防止编译警告-->
         <project.bulid.sourceEncoding>UTF-8</project.bulid.sourceEncoding>
         <!--maven工程 编译 源码-->
-        <maven.compiler.source>13</maven.compiler.source>
+        <maven.compiler.source>1.8</maven.compiler.source>
         <!--maven工程 编译 目标文件-->
-        <maven.compiler.target>13</maven.compiler.target>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <spring.version>5.0.2.RELEASE</spring.version>
-
     </properties>
 
     <!--配置spring需要的jar包-->
@@ -34,6 +34,11 @@
         </dependency>
 
         <dependency>
+            <groupId>commons-dbutils</groupId>
+            <artifactId>commons-dbutils</artifactId>
+            <version>1.7</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
             <version>${spring.version}</version>
@@ -48,7 +53,6 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 
@@ -73,7 +77,6 @@
                     <path>/spring</path>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 </project>

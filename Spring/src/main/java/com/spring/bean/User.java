@@ -1,4 +1,4 @@
-package com.xiao.bean;
+package com.spring.bean;
 
 /**
  * 注解形式测试类
