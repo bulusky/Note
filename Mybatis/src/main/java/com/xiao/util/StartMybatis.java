@@ -40,6 +40,7 @@ public class StartMybatis {
         //传入需要得到对象的dao文件class对象
         return sqlSession.getMapper(type);
 
+
     }
 
     /**
